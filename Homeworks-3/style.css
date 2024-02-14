@@ -1,0 +1,48 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: red;
+  padding: 20px;
+}
+
+.first-level-title {
+  text-align: center;
+}
+
+.text {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.list {
+  background-color: blue;
+}
+
+.item {
+  background-color: greenyellow;
+}
+
+.title-current-news {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section {
+  background-color: orange;
+  padding: 20px;
+}
+
+.title-main-content {
+  border: 5px solid green;
+  margin-bottom: 50px;
+}
+
+.main-paragraph {
+  background: rgb(248, 248, 208);
+  padding: 6px;
+}
+
+.footer {
+  background-color: red;
+}
