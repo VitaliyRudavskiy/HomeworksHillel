@@ -2,26 +2,23 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bcg-page {
-  height: 100%;
+  min-height: 100%;
   background-color: #FFFCB0;
-  margin: 0 auto;
 }
 
 .container {
   background-color: #B0C6FF;
   max-width: 1200px;
-  height: 737px;
+  padding: 25px 0;
   margin: 0 auto;
 }
 
 .header {
   color: white;
-  padding-top: 20px;
   font-size: 48px;
   text-align: center;
   font-family: "Protest Riot", sans-serif;
@@ -32,35 +29,27 @@ body {
 }
 
 .container-content {
+  text-align: center;
   border: 4px solid black;
   width: 230px;
-  height: 280px;
   margin-left: 55px;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: white;
-
-}
-
-.img-minion {
-  margin: 10px 0 0 40px;
+  padding: 20px 10px;
 }
 
 .name-minion {
-  text-align: center;
   font-weight: bold;
 }
 
 .paragraph-content {
-  text-align: center;
-  margin-top: 10px;
+  padding: 10px 0;
 }
 
 .button-bob {
   color: white;
   font-weight: bold;
   font-size: 17px;
-  margin: 10px 0 0 25px;
   background-color: #6177EB;
-  height: 35px;
-  width: 171px;
+  padding: 10px 40px;
 }
