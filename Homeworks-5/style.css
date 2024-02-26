@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  font-family: "Roboto";
+}
+
+.header {
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 53px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.header-content {
+  display: inline-block;
+  max-width: 570px;
+}
+
+.header-content-title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 87px;
+  padding-top: 58px;
+  padding-bottom: 38px;
+}
+
+.header-content-text {
+  max-width: 530px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 46px;
+}
+
+.message {
+  max-width: 550px;
+  position: relative;
+}
+
+.input-message {
+  width: 100%;
+  padding: 20px;
+  border-radius: 50px;
+  border: 5px solid #000000
+}
+
+.input-button {
+  padding: 23px 55px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 0px 50px 50px 0px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header-container-img {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 58px;
+  margin-left: 100px;
+}
+
+.step-text {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 19px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.step-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 66px;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  padding-top: 70px;
+  background-color: #FCD0BA;
+}
+
+.img-box {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 300px;
+}
+
+.info-box {
+  display: inline-block;
+  margin-left: 54px;
+}
+
+.info-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 300px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.info-title {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 48px;
+  max-width: 300px;
+  margin-bottom: 34px;
+}
+
+.info-list {
+  max-width: 400px;
+}
+
+.nav-item-product-selection{
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-product-selection {
+  display: block;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.text-two-section {
+  margin-top: 70px;
+}
+
+.wrapper-section-two {
+  background-color: #CCD3E7;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.img-box-section-two {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.info-box-section-two {
+  display: inline-block;
+  margin-left: 27px;
+}
+
+.box-text-recommended-section-two {
+  background-color: white;
+  border-radius: 30px;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.text-recommended-section-two {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.info-title-section-two {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 48px;
+  max-width: 300px;
+  margin-bottom: 34px;
+}
+
+.info-text-section-two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 380px;
+  margin-bottom: 38px;
+}
+
+.button-section-two {
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-box-content {
+  background-color: #020016;
+  padding: 110px 0px 150px 0px;
+}
+
+.box-text-footer {
+  display: inline-block;
+  max-width: 250px;
+  margin-right: 450px;
+}
+
+.footer-text {
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.box-footer-list {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer-item {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.footer-link {
+  color: white;
+}
