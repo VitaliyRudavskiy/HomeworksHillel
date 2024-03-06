@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Gitpod</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <div class="logo">
+            <svg
+              class="svg-logo"
+              width="131"
+              height="40"
+              viewBox="0 0 131 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_39701_38)">
+                <path
+                  d="M56.0449 30.4444C50.1877 30.4444 46 26.25 46 20.7222C46 15.1944 50.216 11 55.96 11C58.7895 11 60.9966 12.0833 62.8358 13.6667L61.6757 16.0278C60.2609 14.6389 58.45 13.5 55.8468 13.5C51.6025 13.5 48.5466 16.4167 48.5466 20.7222C48.5466 25.0278 51.5742 27.9444 55.8751 27.9444C59.5818 27.9444 62.2133 25.75 62.6377 22.4167H55.0828V19.9167H65.5239V20.0278C65.5239 26.1389 62.0152 30.4444 56.0449 30.4444Z"
+                  fill="#12100C"
+                />
+                <path
+                  d="M68.1803 16.5556H70.6137V30.4444H68.1803V16.5556Z"
+                  fill="#12100C"
+                />
+                <path
+                  d="M82.1393 30.25V28.1389C81.3753 28.2778 80.7528 28.3611 79.8473 28.3611C78.6589 28.3611 78.2345 27.75 78.2345 26.6944V18.6389H82.111V16.5556H78.2345V12.8333H75.8011V16.5556H72.9998V18.6389H75.8011V26.5556C75.8011 29.5 77.131 30.5833 79.7059 30.5833C80.6113 30.5833 81.4036 30.4444 82.1393 30.25Z"
+                  fill="#12100C"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M87.0989 36H84.6655V16.5556H87.0989V18.5556C88.259 17.0278 89.9851 16.2222 92.0789 16.2222C96.0969 16.2222 98.8981 19.2222 98.8981 23.5C98.8981 27.7778 96.0969 30.7778 92.0789 30.7778C90.07 30.7778 88.4288 30 87.0989 28.4167V36ZM86.9292 23.5C86.9292 26.5833 88.7967 28.5556 91.6545 28.5556C94.5123 28.5556 96.3798 26.5556 96.3798 23.5C96.3798 20.4444 94.5123 18.4444 91.6545 18.4444C88.7967 18.4444 86.9292 20.4167 86.9292 23.5Z"
+                  fill="#12100C"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M100.413 23.5C100.413 27.6667 103.582 30.7778 107.826 30.7778C112.071 30.7778 115.24 27.6667 115.24 23.5C115.24 19.3333 112.071 16.2222 107.826 16.2222C103.582 16.2222 100.413 19.3333 100.413 23.5ZM112.722 23.5C112.722 26.3889 110.769 28.4722 107.826 28.4722C104.884 28.4722 102.931 26.3889 102.931 23.5C102.931 20.6111 104.884 18.5278 107.826 18.5278C110.769 18.5278 112.722 20.6111 112.722 23.5Z"
+                  fill="#12100C"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M128.567 11H131V30.4444H128.567V28.4444C127.406 29.9722 125.68 30.7778 123.587 30.7778C119.569 30.7778 116.767 27.7778 116.767 23.5C116.767 19.2222 119.569 16.2222 123.587 16.2222C125.596 16.2222 127.237 17 128.567 18.5833V11ZM128.736 23.5C128.736 20.4167 126.869 18.4444 124.011 18.4444C121.153 18.4444 119.286 20.4444 119.286 23.5C119.286 26.5556 121.153 28.5556 124.011 28.5556C126.869 28.5556 128.736 26.5833 128.736 23.5Z"
+                  fill="#12100C"
+                />
+                <path
+                  d="M69.4026 14.7302C70.3643 14.7302 71.1439 13.9679 71.1439 13.0275C71.1439 12.087 70.3643 11.3247 69.4026 11.3247C68.4408 11.3247 67.6612 12.087 67.6612 13.0275C67.6612 13.9679 68.4408 14.7302 69.4026 14.7302Z"
+                  fill="#12100C"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.388 1.99199C22.4572 3.8871 21.8071 6.30126 19.936 7.38418L8.30155 14.1176C7.99402 14.2956 7.8042 14.6271 7.8042 14.9861V25.5563C7.8042 25.9153 7.99402 26.2467 8.30155 26.4247L17.511 31.7548C17.8141 31.9301 18.1859 31.9301 18.489 31.7548L27.6985 26.4247C28.006 26.2467 28.1958 25.9153 28.1958 25.5563V18.9825L19.9175 23.7132C18.0406 24.7858 15.6605 24.1142 14.6015 22.2133C13.5425 20.3123 14.2056 17.9017 16.0825 16.8292L27.9277 10.0602C31.5358 7.99827 36 10.6386 36 14.8346V26.3588C36 29.0581 34.572 31.5504 32.258 32.8896L21.6846 39.009C19.4014 40.3303 16.5986 40.3303 14.3154 39.009L3.74196 32.8896C1.42803 31.5504 0 29.0581 0 26.3588V14.1835C0 11.4843 1.42803 8.99201 3.74196 7.65282L16.064 0.521394C17.9351 -0.561524 20.3188 0.0968852 21.388 1.99199Z"
+                  fill="url(#paint0_linear_39701_38)"
+                />
+              </g>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_39701_38"
+                  x1="27.0957"
+                  y1="6.04878"
+                  x2="8.28086"
+                  y2="35.2541"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#FFB45B" />
+                  <stop offset="1" stop-color="#FF8A00" />
+                </linearGradient>
+                <clipPath id="clip0_39701_38">
+                  <rect width="131" height="40" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Changelog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">We're hiring</a>
+            </li>
+          </ul>
+          <div class="btn-groupe">
+            <button class="nav-button" type="submit">
+              <a href="#" class="nav-btn-text">Login</a>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section-one">
+        <div class="container">
+          <div class="flex-wrapper">
+            <div class="box-text">
+              <div class="text">
+                <h1 class="title-section-one">
+                  Always <br />
+                  Ready to Code.
+                </h1>
+                <p class="section-text">
+                  Spin up fresh, automated dev environments for each task, in
+                  the cloud, in seconds.
+                </p>
+              </div>
+              <div class="box-btn-link">
+                <div class="box-btn">
+                  <button class="btn-link" type="submit">
+                    <a href="#" class="btn-text">Try Now</a>
+                  </button>
+                </div>
+                <div class="text-box">
+                  <p class="text-inform-btn">
+                    Open a workspace. <br />
+                    Start from any Git context.
+                  </p>
+                </div>
+              </div>
+              <div class="icon-box">
+                <a href="#"
+                  ><svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48"
+                    width="30px"
+                    height="30px"
+                  >
+                    <path fill="#e53935" d="M24 43L16 20 32 20z" />
+                    <path fill="#ff7043" d="M24 43L42 20 32 20z" />
+                    <path fill="#e53935" d="M37 5L42 20 32 20z" />
+                    <path fill="#ffa726" d="M24 43L42 20 45 28z" />
+                    <path fill="#ff7043" d="M24 43L6 20 16 20z" />
+                    <path fill="#e53935" d="M11 5L6 20 16 20z" />
+                    <path fill="#ffa726" d="M24 43L6 20 3 28z" /></svg
+                ></a>
+                <a href=""
+                  ><svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 50 50"
+                    width="30px"
+                    height="30px"
+                  >
+                    <path
+                      d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"
+                    /></svg
+                ></a>
+                <a href=""
+                  ><svg
+                    class="svg-icon"
+                    height="30px"
+                    preserveAspectRatio="xMidYMid"
+                    width="30px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-0.9662264221278978 -0.5824607696358868 257.93281329857973 230.8324730411935"
+                  >
+                    <linearGradient
+                      id="a"
+                      x1="108.633%"
+                      x2="46.927%"
+                      y1="13.818%"
+                      y2="78.776%"
+                    >
+                      <stop offset=".18" stop-color="#0052cc" />
+                      <stop offset="1" stop-color="#2684ff" />
+                    </linearGradient>
+                    <g fill="none">
+                      <path d="M101.272 152.561h53.449l12.901-75.32H87.06z" />
+                      <path
+                        d="M8.308 0A8.202 8.202 0 0 0 .106 9.516l34.819 211.373a11.155 11.155 0 0 0 10.909 9.31h167.04a8.202 8.202 0 0 0 8.201-6.89l34.82-213.752a8.202 8.202 0 0 0-8.203-9.514zm146.616 152.768h-53.315l-14.436-75.42h80.67z"
+                        fill="#2684ff"
+                      />
+                      <path
+                        d="M244.61 77.242h-76.916l-12.909 75.36h-53.272l-62.902 74.663a11.105 11.105 0 0 0 7.171 2.704H212.73a8.196 8.196 0 0 0 8.196-6.884z"
+                        fill="url(#a)"
+                      />
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+            <div class="box-rectangle">
+              <img
+                class="img-rectangle"
+                src="./img/img-room.png"
+                alt="rectangle"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-two">
+        <div class="container">
+          <div class="flex-wrapper-section-two">
+            <div class="box-img">
+              <img
+                class="img-code-text"
+                src="./img/code-text.png"
+                alt="code-text"
+              />
+            </div>
+            <div class="info-box-section-two">
+              <h2 class="title-section-two">Launch an example workspace</h2>
+              <p class="text-section-two">
+                We invented prebuilds so application code, configuration <br />
+                and infrastructure can all be stored as machine-executable code
+                in your git repositories and applied to dev <br />
+                environments automatically and continuously.
+              </p>
+              <div class="btn-groupe-box-section-two">
+                <button class="btn-section-two" type="submit">
+                  <a href="#" class="btn-text-section-two">More on prebuilds</a>
+                </button>
+                <button class="btn-section-two pink-btn" type="submit">
+                  <a href="#" class="btn-text-section-two">Documentation</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex-wrapper-section-two flex-wrapper-section-two-two">
+            <div class="info-box-section-two">
+              <h3 class="title-section-two title-section-two-two">
+                Think CI/CD for dev <br />
+                environments
+              </h3>
+              <p class="text-section-two">
+                We invented prebuilds so application code, configuration <br />
+                and infrastructure can all be stored as machine-executable code
+                in your git repositories and applied to dev <br />
+                environments automatically and continuously.
+              </p>
+              <div class="btn-groupe-box-section-two">
+                <button class="btn-section-two" type="submit">
+                  <a href="#" class="btn-text-section-two">More on prebuilds</a>
+                </button>
+                <button class="btn-section-two pink-btn" type="submit">
+                  <a href="#" class="btn-text-section-two">Documentation</a>
+                </button>
+              </div>
+            </div>
+            <div class="box-img-two">
+              <img
+                class="img-code-text"
+                src="./img/code-text.png"
+                alt="code-text"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-three">
+        <div class="container">
+          <div class="box-title-section-three">
+            <h4 class="title-section-three">Remote-first. Secure by design.</h4>
+          </div>
+          <div class="flex-wrapper-section-three">
+            <div class="container">
+              <div class="box-img-section-three">
+                <img src="./img/code-text-two.png" alt="code-text-two" />
+              </div>
+              <div class="box-text-section-three">
+                <p class="text-section-three">
+                  You no longer need an over-powered laptop to code, Gitpod
+                  works just as smoothly on a Chromebook or iPad. All you need
+                  is a browser. Gitpod centralizes all source code and never
+                  stores it on insecure machines and networks.
+                </p>
+              </div>
+              <div class="box-btn-section-three">
+                <a href="#" class="btn-text-section-three"
+                  ><img
+                    class="img-chrome"
+                    src="./img/img-chrome.png"
+                    alt="img-Firefox Extension"
+                  />
+                  Chrome Extension</a
+                >
+                <a href="#" class="btn-text-section-three"
+                  ><img
+                    class="img-firefox"
+                    src="./img/img-Firefox Extension.png"
+                    alt="img-Firefox Extension"
+                  />
+                  Firefox Extension</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-four">
+        <div class="container">
+          <div class="box-title-section-three box-title-four">
+            <h4 class="title-section-three">Used by 400,000+ developers.</h4>
+          </div>
+          <div class="flex-wrapper-section-four">
+            <div class="box-users-content">
+              <div class="box-text-content">
+                <p class="title-box-reviews">GitPod is incredibly cool.</p>
+                <p class="text-box-reviews">
+                  In my opinion, this is a big step in open source software
+                  contribution. I'm excited to see where we go from here.
+                </p>
+              </div>
+              <div class="box-reviews-user">
+                <div class="box-img-ben">
+                  <img class="img-ben" src="./img/Img-Ben.png" alt="img-ben" />
+                </div>
+                <div class="box-user-text">
+                  <p class="name-ben">Ben Halpern</p>
+                  <p class="text-info-ben">
+                    Creator and Co-founder
+                    <span class="span-info-ben">@forem</span>
+                    and
+                    <span class="span-info-ben">@ThePracticalDev</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box-users-content">
+              <div class="box-text-content">
+                <p class="title-box-reviews">
+                  Let's say we were overwhelmed how smooth @gitpod workspaces
+                  creation & own Docker image for workspaces worked.
+                </p>
+                <p class="text-box-reviews">
+                  Plus, installing @code extensions from the store and
+                  integrating @gitlab CI. That blew my mind entirely, and that
+                  is hard ;)
+                </p>
+              </div>
+              <div class="box-reviews-user">
+                <div class="box-img-ben">
+                  <img
+                    class="img-ben"
+                    src="./img/img-michael.png"
+                    alt="img-ben"
+                  />
+                </div>
+                <div class="box-user-text">
+                  <p class="name-ben">Michael Friedrich</p>
+                  <p class="text-info-ben">
+                    Developer Evangelist
+                    <span class="span-info-ben">@GitLab</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box-users-content">
+              <div class="box-text-content">
+                <p class="text-box-reviews">
+                  Look at any PR (pull request) in a full coding environment
+                  where you can edit, build
+                </p>
+              </div>
+              <div class="box-reviews-user">
+                <div class="box-img-ben">
+                  <img
+                    class="img-ben"
+                    src="./img/img-julius.png"
+                    alt="img-ben"
+                  />
+                </div>
+                <div class="box-user-text">
+                  <p class="name-ben">Ben Halpern</p>
+                  <p class="text-info-ben">
+                    Creator
+                    <span class="span-info-ben">@PrometheusIO</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-five">
+        <div class="container">
+          <div class="flex-box-brand">
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/gitlab.png" alt="logo-gitlab" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img
+                src="./img/logo-img/freeCodeCamp.png"
+                alt="logo-freeCodeCamp"
+              />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/wave.png" alt="logo-wave" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/google.png" alt="logo-google" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/amazon.png" alt="logo-amazon" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/facebook.png" alt="logo-facebook" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/Uber.png" alt="logo-uber" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/Intel.png" alt="logo-intel" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/theia.png" alt="logo-theia" />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img
+                src="./img/logo-img/codeInstitut.png"
+                alt="logo-codeInstitut"
+              />
+            </a>
+            <a class="brand-link-section-five" href="#">
+              <img src="./img/logo-img/4geeks.png" alt="logo-4geeks" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-six">
+        <div class="container">
+          <div class="box-title-section-three box-title-four">
+            <h5 class="title-section-three">Get started now</h5>
+            <div class="flex-wrapper-section-six">
+              <div class="box-connect">
+                <div class="content-text">
+                  <h5 class="title-box-connect">Connect Git repository</h5>
+                  <p class="text-box-connect">
+                    Select a Git provider to start with an existing project from
+                    any Git context.
+                  </p>
+                </div>
+                <div class="box-btn-section-six">
+                  <a href="#" class="btn-text-section-six"
+                    ><img
+                      class="btn-img-section-six"
+                      src="./img/Get-started-now-logo/gitlab.png"
+                      alt="img-gitlab"
+                    />
+                    Continue with GitLab</a
+                  >
+                  <a href="#" class="btn-text-section-six btn-black"
+                    ><img
+                      class="btn-img-section-six"
+                      src="./img/Get-started-now-logo/github.png"
+                      alt="img-github"
+                    />
+                    Continue with GitHub</a
+                  >
+                  <a href="#" class="btn-text-section-six btn-blue"
+                    ><img
+                      class="btn-img-section-six"
+                      src="./img/Get-started-now-logo/bitbucket.png"
+                      alt="img-bitbucket"
+                    />
+                    Continue with Bitbucket</a
+                  >
+                </div>
+                <p class="text-box-connect">
+                  Or prefix any GitLab, GitHub or Bitbucket URL with
+                </p>
+              </div>
+              <div class="box-connect">
+                <div class="content-text">
+                  <h5 class="title-box-connect">Launch an example workspace</h5>
+                  <p class="text-box-connect">
+                    Dive into one of our example workspaces
+                  </p>
+                </div>
+                <div class="launch-wrapper">
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img
+                        src="./img/launch-logo/TypeScript.png"
+                        alt="img-TypeScript"
+                      />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Node or TypeScript</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img
+                        src="./img/launch-logo/Python.png"
+                        alt="img-Python"
+                      />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Python</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img src="./img/launch-logo/Go.png" alt="img-Go" />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Go</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img src="./img/launch-logo/Rust.png" alt="img-Rust" />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Rust</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img src="./img/launch-logo/Java.png" alt="img-java" />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Java</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="launch-list">
+                    <div class="launch-box">
+                      <img
+                        src="./img/launch-logo/Svelte.png"
+                        alt="img-Svelte"
+                      />
+                      <div class="launch-box-text">
+                        <p class="launch-text">Svelte</p>
+                      </div>
+                    </div>
+                    <div class="launch-box-btn">
+                      <div class="launch-btn">
+                        <a class="launch-btn-link" href="#"
+                          ><span class="launch-btn-text"
+                            >Launch workspace</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="footer-box-list">
+          <div class="footer-flex-box">
+            <h6 class="footer-item footer-title">Gitpod</h6>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Home</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Features</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Pricing</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Changelog</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Self-Hosted</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Gitpod vs GitHub</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Code spaces</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Status</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-flex-box">
+            <h6 class="footer-item footer-title">Developer</h6>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Getting started</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Screen casts</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Blog</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Documentation</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Report a bug</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Community</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-flex-box">
+            <h6 class="footer-item footer-title">Company</h6>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">About</a>
+              </li>
+              <li class="footer-item footer-item-star">
+                <a class="footer-list-text" href="#"
+                  >Careers <span class="footer-star">*</span></a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Contact</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Media Kit</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-flex-box">
+            <h6 class="footer-item footer-title">Legal</h6>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Imprint</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Terms of Service</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-list-text" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-logo">
+          <div class="footer-logo-img-box">
+            <svg
+              class="footer-logo-img"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_76)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.07 1.19487C14.2254 1.46531 14.3257 1.76382 14.3652 2.0732C14.4047 2.38258 14.3826 2.69672 14.3002 2.99752C14.2177 3.29832 14.0765 3.57983 13.8848 3.82584C13.6931 4.07184 13.4546 4.27747 13.183 4.43087L6.073 8.47087C5.98099 8.52306 5.90441 8.59864 5.85102 8.68996C5.79763 8.78128 5.76934 8.88509 5.769 8.99087V15.3339C5.76934 15.4397 5.79763 15.5435 5.85102 15.6348C5.90441 15.7261 5.98099 15.8017 6.073 15.8539L11.701 19.0529C11.7921 19.1047 11.8952 19.1319 12 19.1319C12.1048 19.1319 12.2079 19.1047 12.299 19.0529L17.927 15.8549C18.0192 15.8026 18.0958 15.7269 18.1492 15.6354C18.2026 15.5438 18.2308 15.4398 18.231 15.3339V11.3899L13.171 14.2279C12.6204 14.5369 11.97 14.6157 11.3616 14.4471C10.7531 14.2785 10.236 13.8762 9.923 13.3279C9.76928 13.0566 9.67074 12.7576 9.63305 12.4482C9.59536 12.1387 9.61926 11.8248 9.70337 11.5246C9.78749 11.2243 9.93016 10.9437 10.1232 10.6989C10.3162 10.454 10.5557 10.2498 10.828 10.0979L18.067 6.03587C20.272 4.79987 23 6.38287 23 8.90087V15.8149C23 17.4349 22.127 18.9299 20.713 19.7339L14.252 23.4049C13.5655 23.7948 12.7895 23.9998 12 23.9998C11.2105 23.9998 10.4345 23.7948 9.748 23.4049L3.287 19.7339C2.59342 19.3411 2.01636 18.7714 1.61462 18.083C1.21287 17.3946 1.00079 16.612 1 15.8149V8.50987C1 6.88987 1.873 5.39487 3.287 4.59187L10.817 0.311873C11.366 -0.000109702 12.0161 -0.0823635 12.6255 0.0830506C13.2348 0.248465 13.7541 0.648127 14.07 1.19487Z"
+                  fill="url(#paint0_linear_1_76)"
+                />
+              </g>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_76"
+                  x1="17.558"
+                  y1="3.62887"
+                  x2="6.356"
+                  y2="21.3399"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#FFB45B" />
+                  <stop offset="1" stop-color="#FF8A00" />
+                </linearGradient>
+                <clipPath id="clip0_1_76">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="footer-logo-text">Copyright © 2021 Gitpod</p>
+          </div>
+          <div class="footer-box-link">
+            <a href="#"
+              ><svg
+                class="footer-link"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_66)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM11.6406 9.75375L11.6658 10.169L11.2461 10.1181C9.71843 9.92323 8.38383 9.26226 7.25067 8.15216L6.69668 7.60135L6.55399 8.0081C6.25181 8.91482 6.44487 9.87239 7.0744 10.5164C7.41015 10.8723 7.33461 10.9232 6.75544 10.7113C6.55399 10.6435 6.37772 10.5927 6.36093 10.6181C6.30218 10.6774 6.50363 11.4486 6.66311 11.7536C6.88134 12.1773 7.32621 12.5925 7.81305 12.8383L8.22435 13.0332L7.73751 13.0417C7.26746 13.0417 7.25067 13.0501 7.30103 13.2281C7.46891 13.7789 8.13201 14.3636 8.87066 14.6178L9.39108 14.7958L8.93781 15.067C8.26631 15.4568 7.4773 15.6771 6.68829 15.694C6.31057 15.7025 6 15.7364 6 15.7618C6 15.8466 7.02404 16.3211 7.61999 16.5075C9.40786 17.0584 11.5315 16.8211 13.1263 15.8805C14.2595 15.211 15.3926 13.8806 15.9214 12.5925C16.2068 11.9062 16.4922 10.652 16.4922 10.0503C16.4922 9.66054 16.5174 9.60969 16.9874 9.14362C17.2644 8.87245 17.5246 8.57586 17.575 8.49112C17.6589 8.33011 17.6505 8.33011 17.2224 8.47417C16.509 8.72839 16.4083 8.6945 16.7608 8.31317C17.021 8.042 17.3316 7.5505 17.3316 7.40645C17.3316 7.38102 17.2057 7.42339 17.063 7.49966C16.9119 7.5844 16.5761 7.71151 16.3243 7.78778L15.8711 7.93184L15.4598 7.65219C15.2331 7.49966 14.9142 7.33018 14.7463 7.27934C14.3182 7.1607 13.6635 7.17765 13.2774 7.31323C12.2282 7.69456 11.5651 8.67755 11.6406 9.75375Z"
+                    fill="url(#paint0_linear_1_66)"
+                  />
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_66"
+                    x1="3.45"
+                    y1="3.45"
+                    x2="21.107"
+                    y2="22.6608"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFAD33" />
+                    <stop offset="1" stop-color="#FF8A00" />
+                  </linearGradient>
+                  <clipPath id="clip0_1_66">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs></svg
+            ></a>
+            <a href="#"
+              ><svg
+                class="footer-link"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_60)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.0575 6.36076e-06C9.19512 -0.00296524 6.42524 1.03535 4.24425 2.92889C2.06326 4.82242 0.61373 7.4474 0.155424 10.3334C-0.302881 13.2194 0.259995 16.1778 1.74318 18.6784C3.22637 21.179 5.53292 23.0584 8.24948 23.9798C8.85581 24.0931 9.07024 23.7079 9.07024 23.3831C9.07024 23.0584 9.07024 22.3182 9.07024 21.291C5.70585 22.0387 4.996 19.637 4.996 19.637C4.77281 18.8926 4.29863 18.2531 3.65764 17.8319C2.57068 17.0766 3.74637 17.0766 3.74637 17.0766C4.1274 17.1316 4.49118 17.2744 4.81017 17.4942C5.12916 17.7141 5.395 18.0052 5.58754 18.3455C5.75115 18.6485 5.97172 18.9155 6.23661 19.1312C6.5015 19.347 6.80549 19.5071 7.13113 19.6026C7.45677 19.698 7.79765 19.7268 8.13422 19.6874C8.47079 19.6479 8.79642 19.541 9.09242 19.3726C9.13883 18.7513 9.40107 18.1674 9.83185 17.7262C7.15513 17.4165 4.34531 16.3591 4.34531 11.684C4.32693 10.4627 4.76906 9.28099 5.58015 8.38349C5.21891 7.3216 5.26113 6.15988 5.69846 5.12828C5.69846 5.12828 6.71147 4.79596 9.01109 6.38958C10.9858 5.83579 13.0701 5.83579 15.0448 6.38958C17.3444 4.79596 18.35 5.12828 18.35 5.12828C18.7935 6.14897 18.8462 7.30235 18.4979 8.36083C19.309 9.25834 19.7511 10.4401 19.7328 11.6614C19.7328 16.3893 16.9156 17.4241 14.2314 17.7035C14.5192 17.999 14.7415 18.3543 14.8831 18.7452C15.0247 19.1361 15.0824 19.5536 15.0522 19.9693C15.0522 21.6158 15.0522 22.9451 15.0522 23.3454C15.0522 23.7456 15.2666 24.0553 15.8804 23.9345C18.566 22.9888 20.838 21.1041 22.295 18.6132C23.752 16.1223 24.3002 13.1856 23.8428 10.3219C23.3854 7.45814 21.9518 4.85167 19.7953 2.96295C17.6388 1.07422 14.8982 0.024771 12.0575 6.36076e-06Z"
+                    fill="url(#paint0_linear_1_60)"
+                  />
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_60"
+                    x1="3.45"
+                    y1="3.45"
+                    x2="21.107"
+                    y2="22.6608"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFAD33" />
+                    <stop offset="1" stop-color="#FF8A00" />
+                  </linearGradient>
+                  <clipPath id="clip0_1_60">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs></svg
+            ></a>
+            <a href="#"
+              ><svg
+                class="footer-link"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_62)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 11.7908C0 5.2781 5.48155 0 11.9919 0C18.4953 0 23.7804 5.48618 23.7804 11.9965C23.7804 18.5069 18.5 23.9884 11.9896 23.9884L0 24V11.7908ZM5.8306 8.13398C7.14804 5.9215 9.53234 4.56533 12.1074 4.56381H12.1143C15.0968 4.56526 17.7792 6.37901 18.8915 9.14636C20.0038 11.9137 19.3228 15.0793 17.1709 17.1445C15.019 19.2096 11.8281 19.7599 9.1088 18.5347L4.36012 19.6074L5.68254 15.3535C4.45692 13.0889 4.51317 10.3465 5.8306 8.13398Z"
+                    fill="url(#paint0_linear_1_62)"
+                  />
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_62"
+                    x1="3.41843"
+                    y1="3.45"
+                    x2="21.0884"
+                    y2="22.499"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFAD33" />
+                    <stop offset="1" stop-color="#FF8A00" />
+                  </linearGradient>
+                  <clipPath id="clip0_1_62">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
