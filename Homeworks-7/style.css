@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+body {
+  font-family: "Lexend";
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section__links-flex-box {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  border-bottom: 1px solid #F4F4F5;
+  padding: 25px 0px;
+
+}
+
+.section__links {
+  color: black;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.section__links-grey {
+  color: #71717A;
+}
+
+.section__description-text {
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.section__description-box-text {
+  display: flex;
+  border-bottom: 1px solid #F4F4F5;
+  padding: 15px 55px 15px 0;
+}
+
+.section__description-text {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.section__crypto-box {
+  padding: 20px 0px;
+  border-bottom: 1px solid #F4F4F5;
+}
+
+.section__crypto-row {
+  display: flex;
+}
+
+.section__crypto {
+  display: flex;
+  flex-grow: 1;
+}
+
+.section__token {
+  column-gap: 8px;
+}
+
+.section__crypto-token,
+.section__crypto-price,
+.section__crypto-change,
+.section__crypto-market-cup {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.section__change {
+  color: #10B981;
+}
+
+.section__change-red {
+  color: #F43F5E;
+}
+
+.section__crypto-link {
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.section__crypto-button {
+  padding: 10px 17px;
+  border-radius: 4px;
+  background-color: #9AFD4C;
+}
+
+.section__footer {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.section__footer-svg-box {
+  position: relative;
+}
+
+.section__footer-svg {
+  position: absolute;
+}
+
+.section__footer-svg-one {
+  left: 15px;
+}
+
+.section__footer-svg-two {
+  left: 30px;
+}
+
+.section__footer-svg-three {
+  left: 45px;
+}
+
+.section__footer-svg-four {
+  left: 60px;
+}
+
+.section__footer-text-box {
+  display: flex;
+  padding-left: 90px;
+}
+
+.section__footer-span {
+  font-size: 15px;
+  line-height: 25px;
+}
