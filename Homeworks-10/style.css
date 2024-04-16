@@ -514,6 +514,10 @@
   line-height: 130%;
 }
 
+.section-fourth {
+  padding-bottom: 160px;
+}
+
 .fourth__title {
   font-size: 38px;
   line-height: 120%;
@@ -525,6 +529,40 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
   margin-top: 60px;
+  gap: 30px;
+}
+
+.fourth__card {
+  position: relative;
+  overflow: hidden;
+  background-color: #3B3B3B;
+  width: 100%;
+  max-width: 240px;
+  border-radius: 20px;
+}
+
+.fourth__box-img {
+  overflow: hidden;
+}
+
+.fourth__img {
+  width: 100%;
+  height: 100%;
+  filter: blur(6px);
+}
+
+.fourth__img-icon {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 100%;
+  max-width: 100px;
+}
+
+.fourth__name-icon {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 20px 0 20px 30px;
 }
